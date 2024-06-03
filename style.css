@@ -65,17 +65,18 @@ h3{
     border-radius: 5px;
     margin: 0px 10px;
     box-shadow: var(--box-shadow);
-    width: 100%;
 }
+
 .add{
     display: flex;
     flex-direction: column;
     margin: 10px;
 }
 
-/* .input .add > *{
+.input .add > *{
     margin: 10px;
-} */
+}
+
 .add input{
     font-size: 18px;
     padding: 5px;
@@ -178,4 +179,10 @@ h3{
 
 .records i.delete:hover{
     color: #b42b51;
+}
+
+@media (max-width: 640px){
+    .input, .stats{
+        width: 100%;
+    }
 }
