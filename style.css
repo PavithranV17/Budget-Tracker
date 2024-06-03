@@ -181,7 +181,7 @@ h3{
     color: #b42b51;
 }
 
-@media (max-width: 640px){
+@media (max-width: 420px){
     .input, .stats{
         width: 100%;
     }
