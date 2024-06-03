@@ -65,6 +65,7 @@ h3{
     border-radius: 5px;
     margin: 0px 10px;
     box-shadow: var(--box-shadow);
+    width: 100%;
 }
 .add{
     display: flex;
